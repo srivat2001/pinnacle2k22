@@ -1,0 +1,452 @@
+{
+  "Technical": {
+    "BUGSMASH": {
+      "name": "BUGSMASH",
+      "subline": "DEBUGGING",
+      "desc": [
+        "The event would be conducted in a Relay manner i.e.",
+        " each team mate should debug one after another.",
+        " Certain hindrances would be there to increase the difficulty.",
+        " The complexity would increase with the rounds"
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "A team must contain 3 members",
+            "Basic programming knowledge is required",
+            "Discussion among participants will not be entertained.. If found so, the team will be disqualified.",
+            "The winner is determined by the total points of each team."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Sandhya"
+          ]
+        }
+      ]
+    },
+    "Codezilla": {
+      "name": "Codezilla",
+      "subline": "DEBUGGING",
+      "desc": [
+        "It would be conducted in 3 rounds.",
+        "The first round would be basic programming",
+        "Second round would be Reverse Coding.",
+        "And in the third round company specific questions would be asked and based on your performance, you may be offered an internship."
+      ],
+      "contents": [
+        {
+          "rules": [
+            "This is an individual event",
+            "Participants have to bring their own laptops.",
+            "C, C++, Java and Python are allowed.",
+            "Any malpractice will not be entertained",
+            "Judges decision will be final"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Deepika"
+          ]
+        }
+      ]
+    },
+    "Brain squeezer": {
+      "name": "Brain Squeezer",
+      "subline": "Technical quiz event",
+      "desc": [
+        "The questions will be displayed on a projector and the candidate has to answer the questions.",
+        "Certain hindrances will be given to distract the contestants."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "This is an individual event",
+            "No of Rounds Will Be Decided Based On The Number Of Participants.",
+            "Candidates should not Involve in Any Kind of Malpractice. If Caught, then the Individual will be Completely Disqualified from the event",
+            "The panel's decision will be the final verdict"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Chandra"
+          ]
+        }
+      ]
+    },
+    "iDesign": {
+      "name": "iDesign",
+      "subline": "UI/UX Design",
+      "desc": [
+        "This is an individual event which takes place for 2 hours",
+        "It is a single round event where the participants will be given a website to recreate the UI/UX. ",
+        "The participant whose design is closest to the website wins."
+      ],
+      "contents": [
+        {
+          "rules": [
+            "This is an Individual event.",
+            "Participants have to bring their own laptops.",
+            "Designing should be done in Figma.",
+            "Design should not be done prior to the competition.",
+            "Participants should share their Figma URL.",
+            "Participants can use images of their own if necessary.",
+            "Participants should not use the pre-defined components from the external resources"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Mr. Balaji"
+          ]
+        }
+      ]
+    },
+    "SharkTank": {
+      "name": "Shark Tank",
+      "subline": "Buisness",
+      "desc": [
+        "This event is to provide a platform for people to build their entrepreneurial journey by pitching and validating their ideas so that they can be implemented and get a chance to network with like-minded industry professionals."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "A team can have a maximum of 5 students.",
+            "Teams can bring their prototypes, if any. The team should take full responsibility for their prototypes. We are not responsible for any loss.",
+            "Create a pitch deck with your ideas and upload the following documents, including all the details contained in Guideline.",
+            "Each Team will have ten minutes to present their ideas.",
+            "Copying an idea is strictly prohibited and disqualifies you.",
+            "The jury's decision is final.",
+            "The award will be based on the innovativeness and feasibility of the presented idea."
+          ]
+        },
+        {
+          "Rounds": [
+            "First round :Ideas would be pitched to professors",
+            "Second round (Shortlisted teams):Ideas would be pitched to investors"
+          ]
+        },
+        {
+          "Faculty incharge": [
+            "Mr. Durai"
+          ]
+        }
+      ]
+    },
+    "Connections-Connexus": {
+      "name": "Connections-Connexus",
+      "subline": "quiz",
+      "desc": [
+        "This would be a buzzer based event. A couple of pictures will be displayed on a projector. ",
+        "The participants must identify a technical word by analyzing all the photos given as clues."
+      ],
+      "contents": [
+        {
+          "rules": [
+            "A team must contain 3 members",
+            "Whichever team hits the buzzer first should answer within 10 seconds.",
+            "Host will decide who hit the buzzer first. Host’s decision would be final"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Lavanya"
+          ]
+        }
+      ]
+    }
+  },
+  "NonTechnical": {
+    "Futsal": {
+      "name": "Futsal",
+      "subline": "Game",
+      "desc": [
+        "A 3's football match of duration 4 mins per half where any team can participate with 2 rolling substitutes and the fixtures will be based on the number of teams registered."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "Team length-3+2 (rolling substitutes)",
+            "Time : 4 - 1 - 4",
+            "Refund of the registration fee will not be entertained strictly",
+            "Fixtures based on number of entries.",
+            "The organizing committee has full authority to revise the rules of the game"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Contact": [
+            "Mr. Kumaran"
+          ]
+        }
+      ]
+    },
+    "Boxcricket": {
+      "name": "Box cricket",
+      "subline": "Game",
+      "desc": [
+        "Cricket match with 5 players per team will be conducted in a box shaped field with under arm bowling and the fixtures will be based on the number of teams registered."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "5 players per team + 2",
+            "Number of overs : 4",
+            "The umpire’s decision is final",
+            "Refund of the registration fee will not be entertained strictly",
+            "Fixtures based on number of entries.",
+            "The organizing committee has full authority to revise the rules of the game"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Mr. Ravindran"
+          ]
+        }
+      ]
+    },
+    "Fifa": {
+      "name": "Fifa",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "2 players per team (2 v 2)",
+            "Time : 6 minutes per half",
+            "Fixtures based on number of entries.",
+            "Refund of the registration fee will not be entertained strictly"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Gnanapriya"
+          ]
+        }
+      ]
+    },
+    "BGMI": {
+      "name": "BGMI",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "Bring your own device with proper internet connection ",
+            "Refund of the registration fee will not be entertained strictly",
+            "Fixtures based on number of entries.",
+            "Refund of the registration fee will not be entertained strictly",
+            "First place vs Second place from round 1",
+            "Third place vs Fourth place from round 1"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Saraswathi"
+          ]
+        }
+      ]
+    },
+    "Channelsurfing": {
+      "name": "Channelsurfing",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "rules": [
+            "A team must contain 5-6 members",
+            "All the members of the team must be included in the enacting",
+            "Every team gets around 4-5 minutes of enacting time",
+            "No preparation time will be given",
+            "No vulgarity will be entertained",
+            "Judge’s decision will be final"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Sowmiya"
+          ]
+        }
+      ]
+    },
+    "Treasurehunt": {
+      "name": "Treasure Hunt",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "rules": [
+            "A team must contain 5-6 members",
+            "The hints will be placed in various locations around the campus",
+            "Hints will be given through a QR code which you can scan using your mobiles",
+            "The QR scan code gives the hint to proceed for the next QR scan",
+            "Winners will be based on the minimal finishing time"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Praveena"
+          ]
+        }
+      ]
+    },
+    "Job wreck": {
+      "name": "Job wreck",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "rules": [
+            "The participants will have 2 minutes time for preparation and 3 minutes on stage",
+            "They will be given 2 minutes to convince the judge as to why they should get the job",
+            "Jobs on which they have to perform will be given on spot"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Ellma"
+          ]
+        }
+      ]
+    },
+    "Photography": {
+      "name": "Photography",
+      "subline": "skill",
+      "desc": [],
+      "contents": [
+        {
+          "rules": [
+            "Participants should strictly follow the theme",
+            "Only one entry from each participant is considered",
+            "The photos can be captured through mobile and DSLR camera",
+            "Basic editing is allowed",
+            "The photograph should not contain any watermark"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Valarmathi"
+          ]
+        }
+      ]
+    }
+  },
+  "OnlineEvents": {
+    "Photography": {
+      "name": "Photography",
+      "subline": "skill",
+      "desc": [],
+      "contents": [
+        {
+          "rules": [
+            "Participants should strictly follow the theme",
+            "Only one entry from each participant is considered",
+            "The photos can be captured through mobile and DSLR camera",
+            "Basic editing is allowed",
+            "The photograph should not contain any watermark"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Valarmathi"
+          ]
+        }
+      ]
+    },
+    "Valorant": {
+      "name": "Valorant",
+      "subline": "skill",
+      "desc": [
+        "Valorant is a free-to-play first-person hero shooter which is Tactical 5v5",
+        "Each team must have 5 persons"
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "Platform – Account",
+            "All players are allowed to have only one (1) account.",
+            "You are not allowed to share or use another person’saccount. Your account is for your use and your use alone.",
+            "Failing to join within 10 minutes after the scheduled time will lead to disqualification."
+          ]
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Kausalya"
+          ]
+        }
+        ,
+        {
+          "TEAMS AND ROSTERS": [
+            "Each team’s roster must consist of at least 5 players.",
+            "Each team’s roster will be allowed to have 5 main players and 1 substitute. Once the match starts, you cannot replace any player.",
+            "A player is allowed to represent only one (1) team’s roster in the same tournament."
+          ]
+        },
+        {
+          "BEST-OF-THREE (from semi finals)": [
+            "Team A picks a map (played first in the best-of-three)",
+            "Team B picks a side for map 1 and pick map 2 (played second in the best-of-three)",
+            "Team A picks a side",
+            "Admin randomizes the map to be played between the last 3 maps, side choice goes to the higher seed (better record) coming out of groups"
+          ]
+        },
+        {
+          "CHEATING": [
+            "It is forbidden to cheat, modify the game files, exploit bugs, and/or use any third-party application which would give an unfair advantage against other users.",
+            "All cheats are completely forbidden to use under any circumstance while playing in tournament . Using any cheat will result in bans and disqualifications. This includes, but are not limited to:",
+            "ESP",
+            "Radar hacks",
+            "Wallhacks",
+            "Speed hacks",
+            "Aim hacks",
+            "Hitbox manipulation",
+            "Teleportation (any kind of teleportation, which is not possible in the game)",
+            "The usage of a bug/bugs to gain an advantage versus your opponents"
+          ]
+        }
+      ]
+    }
+  
+  
+  }
+}
