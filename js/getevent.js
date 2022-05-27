@@ -28,7 +28,7 @@ xhttp.onreadystatechange = function() {
 
     }
 };
-xhttp.open("GET", "details1.json", true);
+xhttp.open("GET", "https://srivat2001.github.io/pinnacle2k22/details1.json", true);
 xhttp.send();
 
 $(document).ready(function() {
@@ -178,7 +178,7 @@ $('.selectobj').change(function() {
           
         }
     };
-    xhttp.open("GET", "details1.json", true);
+    xhttp.open("GET", "https://srivat2001.github.io/pinnacle2k22/details1.json", true);
     xhttp.send();
 
 });
