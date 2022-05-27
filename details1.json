@@ -5,8 +5,8 @@
       "subline": "DEBUGGING",
       "desc": [
         "The event would be conducted in a Relay manner i.e.",
-        " each team mate should debug one after another.",
-        " Certain hindrances would be there to increase the difficulty.",
+        " each teammate should debug one after another.",
+        " Certain hindrances would be there to bring in more fun and to increase the difficulty.",
         " The complexity would increase with the rounds"
       ],
       "contents": [
@@ -35,7 +35,7 @@
         "It would be conducted in 3 rounds.",
         "The first round would be basic programming",
         "Second round would be Reverse Coding.",
-        "And in the third round company specific questions would be asked and based on your performance, you may be offered an internship."
+        "And in the third round company specific questions would be asked and based on your performance, you may be offered an internship!!!."
       ],
       "contents": [
         {
@@ -62,7 +62,7 @@
       "subline": "Technical quiz event",
       "desc": [
         "The questions will be displayed on a projector and the candidate has to answer the questions.",
-        "Certain hindrances will be given to distract the contestants."
+        "Certain hindrances will be given to add in fun and distract the contestants."
       ],
       "contents": [
         {
@@ -96,9 +96,9 @@
           "rules": [
             "This is an Individual event.",
             "Participants have to bring their own laptops.",
-            "Designing should be done in Figma.",
+            "Designing can be done in any platform they're comfortable in.",
             "Design should not be done prior to the competition.",
-            "Participants should share their Figma URL.",
+            "Participants should share their project URL.",
             "Participants can use images of their own if necessary.",
             "Participants should not use the pre-defined components from the external resources"
           ]
@@ -123,12 +123,12 @@
         {
           "Rules": [
             "A team can have a maximum of 5 students.",
-            "Teams can bring their prototypes, if any. The team should take full responsibility for their prototypes. We are not responsible for any loss.",
             "Create a pitch deck with your ideas and upload the following documents, including all the details contained in Guideline.",
             "Each Team will have ten minutes to present their ideas.",
             "Copying an idea is strictly prohibited and disqualifies you.",
             "The jury's decision is final.",
-            "The award will be based on the innovativeness and feasibility of the presented idea."
+			"Teams can bring their prototypes, if any. The team should take full responsibility for their prototypes. We are not responsible for any loss.",
+            "The win will be based on the innovativeness and feasibility of the presented idea."
           ]
         },
         {
@@ -343,18 +343,46 @@
         }
       ]
     },
-    "Photography": {
-      "name": "Photography",
-      "subline": "skill",
-      "desc": [],
+    "Dizzy Target": {
+      "name": "Dizzy target",
+      "subline": "Game",
+      "desc": ["Dizzy target is a fun game where the player has to rotate around with the ball and get dizzy. Once the player is dizzy, a target will be given in which the player has to aim accurately."],
       "contents": [
         {
-          "rules": [
-            "Participants should strictly follow the theme",
-            "Only one entry from each participant is considered",
-            "The photos can be captured through mobile and DSLR camera",
-            "Basic editing is allowed",
-            "The photograph should not contain any watermark"
+          "rules": []
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Ellma"
+          ]
+        }
+      ]
+    },
+    "Chess": {
+      "name": "Chess",
+      "subline": "skill",
+      "desc": ["Games will be played on Real boards so players can bring his/her own board.",
+"The players will be paired randomly",
+"Time for initial rounds will be 30mins",
+"clock time might be the same or little longer for subsequent rounds.",
+"A fixed number of rounds is played and at each round people are matched against others who have scored the same number of points."],
+      "contents": [
+        {
+          "Rules": [
+            "Must be able to do the following:",
+ "Properly move all of the chess pieces",
+ "Understand pawn promotion.",
+ "Understand rules for “advanced” moves: Castling and en passant capture (note: please ask the organizer in case of any confusion about en passant rule )",
+"Understand Check and the ways to get out of check (move, block, capture)",
+"Understand Checkmate",
+ "Understand the “touch-move” rule",
+ "Understand 50 moves draw rule i.e. the game can be claimed drawn after 50 moves if there are no pawn moves or no captures.",
+ "Understand 3 fold repetition rule. the game can be claimed drawn if the exact same position is repeated thrice.",
+ "No outside assistance during games is allowed.",
+"In case of any confusion/disputes talk to the tournament organizers."
           ]
         },
         {
@@ -375,7 +403,7 @@
       "desc": [],
       "contents": [
         {
-          "rules": [
+          "Rules": [
             "Participants should strictly follow the theme",
             "Only one entry from each participant is considered",
             "The photos can be captured through mobile and DSLR camera",
@@ -442,6 +470,59 @@
             "Hitbox manipulation",
             "Teleportation (any kind of teleportation, which is not possible in the game)",
             "The usage of a bug/bugs to gain an advantage versus your opponents"
+          ]
+        },{
+			
+			"Contact":[]
+		}
+      ]
+    }, 
+	 "Solo singing": {
+      "name": "Solo singing",
+      "subline": "skill",
+      "desc": ["This is an individual contest. There is no language barrier. It's your platform to sing your hearts out ."," Contestants are required to sing for 2-3 mins.  Referring lyrics must be avoided."],
+      "contents": [
+        {
+          "Rules": [
+            "This is an Individual event.",
+            "Participants are allowed to sing in any language.",
+            "Participants must record and send their videos before the deadline",
+            "The video must not exceed more than 2 minutes",
+            "Any form of vulgarity will lead to disqualification",
+			  "Decision of the Judges will be final"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Valarmathi"
+          ]
+        }
+      ]
+    },
+	   "Logo Designing": {
+      "name": "Logo Designing",
+      "subline": "skill",
+      "desc": ["This is an individual contest. There is no language barrier. It's your platform to sing your hearts out ."," Contestants are required to sing for 2-3 mins.  Referring lyrics must be avoided."],
+      "contents": [
+        {
+          "Rules": [
+            "This is an Individual event.",
+            "Participants are allowed to sing in any language.",
+            "Participants must record and send their videos before the deadline",
+            "The video must not exceed more than 2 minutes",
+            "Any form of vulgarity will lead to disqualification",
+			  "Decision of the Judges will be final"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Faculty incharge": [
+            "Ms. Valarmathi"
           ]
         }
       ]
