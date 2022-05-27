@@ -94,7 +94,11 @@
                         }
                         else if(parseInt(xhr.status)==406){
                         
-                        alert("You are already Registered"); 
+                          if (xhr.response[0] != '{')
+                                 {   alert(xhr.response);}
+                                 else{
+                                    alert("Participant already registered !!");
+                              }
                         
                         }
                         console.log(xhr.status);
