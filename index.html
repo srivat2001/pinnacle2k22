@@ -10,14 +10,33 @@
       <script type="text/javascript" src="js/addhtmlelment.js"></script>
 	        <script type="text/javascript" src="js/loading.js"></script>
       <style>
+		  .stripe{
 		
+		  }
+		  .loadingcontaineratstart {
+  height: 200px;
+  position: relative;
+			  height: 100%;
+}
+
+ .loadingcontaineratstart .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+		   .loadingcontaineratstart .center img {
+ width: 250px;
+}
       </style>
    </head>
    <body>
 	   <div class="loadingcontaineratstart">
   <div class="center">
    <img src="img/logo.png">
-	  <div>Loading</div>
+	  <div style="loadingtext">Loading</div>
 	  <script>
 	        $(window).on("load",function(){
                      document.getElementsByClassName("loadingcontaineratstart")[0].style.display = "none";
