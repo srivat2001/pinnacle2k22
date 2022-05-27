@@ -1684,3 +1684,23 @@ animation: opacityfadein 1s 1s forwards;
   }
 	
 }
+  .stripe{
+		
+		  }
+		  .loadingcontaineratstart {
+  height: 200px;
+  position: relative;
+			  height: 100%;
+}
+
+ .loadingcontaineratstart .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+		   .loadingcontaineratstart .center img {
+ width: 250px;
+}
