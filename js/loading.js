@@ -33,4 +33,5 @@
                      $(".mainintro").delay(300).addClass("increaseopacity");
 		includeHTML();
 			 document.getElementsByClassName("rightside")[0].innerHTML = '<img src="img/logo.png">';
+			  document.getElementsByClassName("middlelogo")[0].style.backgroundImage = 'url("img/logo.png")';
                 });
