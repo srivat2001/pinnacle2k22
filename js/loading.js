@@ -32,4 +32,5 @@
                      $(".loading").fadeOut("slow");
                      $(".mainintro").delay(300).addClass("increaseopacity");
 		includeHTML();
+			 document.getElementsByClassName("rightside")[0].innerHTML = '<img src="img/logo.png">';
                 });
