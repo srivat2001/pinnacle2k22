@@ -1,8 +1,4 @@
 
-                  $(window).on("load",function(){
-                     $(".loading").fadeOut("slow");
-                     $(".mainintro").delay(300).addClass("increaseopacity");
-                });
                   				function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -31,3 +27,9 @@
   }
 };
 		
+
+                  $(window).on("load",function(){
+                     $(".loading").fadeOut("slow");
+                     $(".mainintro").delay(300).addClass("increaseopacity");
+		includeHTML();
+                });
