@@ -1859,7 +1859,7 @@ h1 {
 
 	.middlelogo {
 
-		background-image: url("logo.png");
+		
 		width: 240px;
 		height: 250px;
 		background-position: center;
@@ -2005,11 +2005,3 @@ p.cyberpunk.inverse {
 		width: 250px;
 	}
 
-	.loadingtext {
-		top: -70;
-		z-index: 2;
-		color: white;
-		text-align: center;
-		font-size: 26px;
-		font-weight: 100;
-	}
