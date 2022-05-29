@@ -3,12 +3,11 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-	   <script src="js/nav.js"></script>
-	   <script type="text/javascript" src="js/loading.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+      <script src="js/nav.js"></script>
+      <script type="text/javascript" src="js/loading.js"></script>
       <link rel="stylesheet" href="css/common.css">
       <link rel="stylesheet" href="css/success.css">
-
    </head>
    <body>
       <div class="stripe">
@@ -20,8 +19,7 @@
                      <div class="navitem"><a class="link" href="index.html">Home</a></div>
                      <div class="navitem"><a   href="technicalevents.html">Technical Events</a></div>
                      <div class="navitem"><a  class="link" href="nontechnicalevents.html">Non Technical Events</a></div>
-					  		  
-					     <div class="navitem"><a class="linkmain"    href="onlineevents.html">Online Events</a></div>
+                     <div class="navitem"><a class="linkmain"    href="onlineevents.html">Online Events</a></div>
                      <div class="navitem"><a class="link" href="sponsors.html">Sponsors</a></div>
                      <div class="navitem"><a class="link" href="contactus.html">Contact us</a></div>
                      <div class="navitem main"><a class="linkmain mainlink" class="link" href="eventregister.html">Registration</a></div>
@@ -33,7 +31,7 @@
             </div>
             <div class="topic1">
                <div class="mainpagecontainer">
-				    <div class="loading">
+                  <div class="loading">
                      <div class="obj"></div>
                      <div class="obj"></div>
                      <div class="obj"></div>
@@ -42,64 +40,53 @@
                      <div class="obj"></div>
                      <div class="obj"></div>
                      <div class="obj"></div>
-                 </div>
-               
+                  </div>
                   <div class="mainintro" id="typedtext" class="desc">
-					  <div id="html-content-holder"class=content>
-<div class="wrapper-1">
-    <div class="wrapper-2">
-  <img src="img/PINNACLE.png">
-  
-  <div class="inforegis">
-      <h1>Thank you for Registering ! !</h1>
-      <p>See ya at Sympo !  </p>
-      <p>Please bring the following Registration confirmation:  </p>
-		<p class="regid">Kdfdf50025</p> <br>
-		<div class="details">
-			      
-      <p class="name">Srivathsan G:</p>
-      <p class="email">gsrivathsan2001@gmail.com</p>  
-	  <p class="mobile">9971069243</p> 
-
-			 <p class="college">Easwari Engineering College</p> 
-      </div>
- </div>
-    </div>
-
-</div>
-</div>
-					  <a class="cyberpunk2077 formsubmit" id="btn-Convert-Html2Image">Download </a >
-					  
-        <script>
-  $(document).ready(function () {
-            var element = $("#html-content-holder"); // global variable
-            var getCanvas; //global variable
-            html2canvas(element, {
-                onrendered: function (canvas) {
-                    getCanvas = canvas;
-                }
-            });
- 
-            $("#btn-Convert-Html2Image").on('click', function () {
-                var imgageData = getCanvas.toDataURL("image/png");
-                //Now browser starts downloading it instead of just showing it
-                var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
-                $("#btn-Convert-Html2Image").attr("download", document.getElementsByClassName("regid")[0].innerHTML+".png").attr("href", newData);
-            });
-        });
-    </script>  <script>
-		  
-                  $(window).on("load",function(){
-                     document.getElementsByClassName("name")[0].innerHTML = localStorage.getItem("name");
-					  document.getElementsByClassName("college")[0].innerHTML = localStorage.getItem("institute");
-					  document.getElementsByClassName("mobile")[0].innerHTML =localStorage.getItem("mobile");
-					    document.getElementsByClassName("email")[0].innerHTML =localStorage.getItem("email");
-					  document.getElementsByClassName("regid")[0].innerHTML = localStorage.getItem("regid");
-					  
-                });
-                  
+                     <div id="html-content-holder"class=content>
+                        <div class="wrapper-1">
+                           <div class="wrapper-2">
+                              <img src="img/PINNACLE.png">
+                              <div class="inforegis">
+                                 <h1>Thank you for Registering ! !</h1>
+                                 <p>See ya at Sympo !  </p>
+                                 <p>Please bring the following Registration confirmation:  </p>
+                                 <p class="regid">Kdfdf50025</p>
+                                 <br>
+                                 <div class="details">
+                                    <p class="name">Srivathsan G:</p>
+                                    <p class="email">gsrivathsan2001@gmail.com</p>
+                                    <p class="mobile">9971069243</p>
+                                    <p class="college">Easwari Engineering College</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="cyberpunk2077 formsubmit" id="btn-Convert-Html2Image">Download </a >
+                     <script>
+                        $(document).ready(function () {
+                                document.getElementsByClassName("name")[0].innerHTML = localStorage.getItem("name");
+                        			  document.getElementsByClassName("college")[0].innerHTML = localStorage.getItem("institute");
+                        			  document.getElementsByClassName("mobile")[0].innerHTML =localStorage.getItem("mobile");
+                        			    document.getElementsByClassName("email")[0].innerHTML =localStorage.getItem("email");
+                        			  document.getElementsByClassName("regid")[0].innerHTML = localStorage.getItem("regid");
+                                  var element = $("#html-content-holder"); // global variable
+                                  var getCanvas; //global variable
+                                  html2canvas(element, {
+                                      onrendered: function (canvas) {
+                                          getCanvas = canvas;
+                                      }
+                                  });
                         
-                        
+                                  $("#btn-Convert-Html2Image").on('click', function () {
+                                      var imgageData = getCanvas.toDataURL("image/png");
+                                      //Now browser starts downloading it instead of just showing it
+                                      var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+                                      $("#btn-Convert-Html2Image").attr("download", document.getElementsByClassName("regid")[0].innerHTML+".png").attr("href", newData);
+                                  });
+                              });
+                          
+                     </script>  <script>
                         function showheader(obj){
                         
                               if(obj.classList.contains("fa-close")){
@@ -137,31 +124,19 @@
                         
                         
                      </script>
-                     <script>
-              
-                        
-                     </script>
+                     <script></script>
                      <div class="rightside"><img src="img/logo.png" ></div>
                      <style>
                      </style>
-           
                   </div>
                </div>
-			   <div w3-include-html="htmlelements/smoke.html"></div>
-			
+               <div w3-include-html="htmlelements/smoke.html"></div>
             </div>
          </div>
          <style>
          </style>
          <script>
-            function register(type)	  {
-            var btn = document.getElementsByClassName("cyberpunk2077 btnsubmit")[0];
-            localStorage.setItem("eventtype",type);
-            localStorage.setItem("eventname",btn.value);
-            return true;
-            
-            
-            }
+   
                 
             var obj = document.getElementsByClassName("link");
             for (var i = 0; i < obj.length; i++) {
@@ -181,12 +156,11 @@
             $(".container2").delay(3000).fadeOut();
             $(".stripe").delay(3100).fadeIn();
             $(".topic1").delay(5000).fadeIn();
-        
+            
             
          </script>
          <style>
          </style>
       </div>
-               
    </body>
 </html>
