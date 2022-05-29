@@ -126,7 +126,7 @@ class events {
     }
     addextracontents() {
         var i, j;
-        console.log(this.jsondata);
+      
         for (i = 0; i < this.jsondata[this.eventtype][this.event]["contents"].length; i++) {
             for (const key in this.jsondata[this.eventtype][this.event]["contents"][i]) {
                 var extracontentlength = this.jsondata[this.eventtype][this.event]["contents"][i][key].length;
@@ -143,7 +143,7 @@ class events {
 					
 					
                     for (j = 0; j < extracontentlength; j++) {
-                        console.log(this.jsondata[this.eventtype][this.event]["contents"][i][key][j])
+    
                         str = str + "<li>" + this.jsondata[this.eventtype][this.event]["contents"][i][key][j] + "</li>";
                     }
                     str = str + "</ul>";
