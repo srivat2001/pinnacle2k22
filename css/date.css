@@ -37,6 +37,8 @@ font-family: 'Bai Jamjuree', sans-serif;
 		  font-size: 18px;
 font-weight: 600;
 		  color: #fff;
+		    font-weight: 100;
+}
 		  
          }
          .datecontainer:nth-child(1){
@@ -82,7 +84,7 @@ font-weight: 600;
          letter-spacing: 0.034em;
          }
 
-@media only screen and (max-width: 586px) {
+@media only screen and (max-width: 1050px) {
 	
 	
 	         .datecontainer{

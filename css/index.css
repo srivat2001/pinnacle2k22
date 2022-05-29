@@ -856,14 +856,11 @@ h2.cyberpunk:before,
 h3.cyberpunk:before,
 h4.cyberpunk:before {
 
-	display: block;
-	position: absolute;
-	bottom: 0px;
-	left: 2px;
-	width: 100%;
-	height: 10px;
-	background-color: #000;
-	clip-path: polygon(0 0, 85px 0, 90px 5px, 100% 5px, 100% 6px, 85px 6px, 80px 10px, 0 10px)
+	display: none;
+
+bottom: 0px;
+left: 2px;
+width: 100%;
 }
 
 h1.cyberpunk.glitched {
@@ -1058,7 +1055,23 @@ h4.cyberpunk:after {
 	animation-direction: reverse;
 	animation-duration: calc(var(--glitched-duration)/ 2)
 }
+h1.cyberpunk:before,
+h2.cyberpunk:before,
+h3.cyberpunk:after,
+h4.cyberpunk:before,
+p.cyberpunk:before {
+	content: "_";
+	animation-name: hxafter;
+	animation-duration: var(--glitched-duration);
+	animation-iteration-count: infinite;
+	animation-timing-function: linear
+}
 
+h3.cyberpunk:before,
+h4.cyberpunk:before {
+	animation-direction: reverse;
+	animation-duration: calc(var(--glitched-duration)/ 2)
+}
 @keyframes hxafter {
 	0% {
 		opacity: 0
@@ -1715,7 +1728,10 @@ font-weight: 400;
 		position: fixed;
 		top: 0px;
 		height: 100vh;
+		
+		
 	}
+	@keyframes 
 
 	.responsivenavbarborder {
 		padding-left: 20px;
@@ -1825,7 +1841,10 @@ h1 {
 	margin-left: auto;
 	margin-top: 0px;
 	margin-right: auto;
-}
+	position: relative;
+	top: 0px;
+	
+
 }
 
 
@@ -1843,17 +1862,16 @@ h1 {
 	}
 
 	h1.cyberpunk.glitched {
-
-
-		position: relative;
-		left: 18px;
-		text-align: center;
+position: relative;
+left: 18px;
+text-align: center;
+margin-top: 8;
 	}
 
 	.descholder {
 
 		position: relative;
-		top: -90;
+		top: -50px;
 
 	}
 
@@ -1867,15 +1885,30 @@ h1 {
 		top: 110px;
 		display: block;
 		margin: auto;
-
+		position: relative;
+        top: 0;
+        animation: fromup 1s 1s forwards;
+		opacity: 0;
+		
 	}
 
-}
 
+}
+	@keyframes fromup {
+		0%{
+				top: 200px;
+			opacity: 0;
+		}
+		100%{
+			
+			top: 0;
+			opacity: 1;
+		}
+	}
 p.cyberpunk.inverse {
 
 	padding: 20px 15px 30px;
-
+margin-bottom: 0px;
 
 }
 
@@ -1964,9 +1997,57 @@ p.cyberpunk.inverse {
 
 		opacity: 1;
 	}
-
-
+}
+.eventlinknavholder{
+	display: none;
+}
+.flexelemements{
+	
+	margin-top: 30px;
+}
 	@media only screen and (max-width:1050px) {
+						  .flexelemements{
+	
+	margin-top: 3px;
+	
+}
+		.email{
+			
+			margin-bottom: 1rem;
+		}
+					 .eventlinknavholder{
+							  
+							  display: flex;
+							  position: relative;
+							  top: -40px;
+						  }
+						  .viewevents{
+							background-color: #00ffff78;
+color: white;
+padding: 0.2rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+padding-right: 0.2rem;
+padding-left: 0.2rem;
+border-radius: 15px;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+margin-top: 10px;
+width: fit-content;
+							  margin-left: auto;
+						  }
+						  						  .viewevents a{
+						
+color: white;
+													  text-decoration: none;
+
+						  }
+						  	  .navlist{
+							  
+							  margin-left: auto;
+						  }		  
+					
+						 
 		.rightside {
 
 			display: none;
