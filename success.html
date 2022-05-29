@@ -3,6 +3,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
 	   <script src="js/nav.js"></script>
 	   <script type="text/javascript" src="js/loading.js"></script>
       <link rel="stylesheet" href="css/common.css">
@@ -44,34 +45,56 @@
                  </div>
                
                   <div class="mainintro" id="typedtext" class="desc">
-					  <div class=content>
-  <div class="wrapper-1">
+					  <div id="html-content-holder"class=content>
+<div class="wrapper-1">
     <div class="wrapper-2">
+  <img src="img/PINNACLE.png">
+  
+  <div class="inforegis">
       <h1>Thank you for Registering ! !</h1>
       <p>See ya at Sympo !  </p>
-      <p>Please bring the following Registration confirmation:  </p><br>
-		
+      <p>Please bring the following Registration confirmation:  </p>
+		<p class="regid">Kdfdf50025</p> <br>
 		<div class="details">
-      <p class="name">Name :</p>
-      <p class="email">Email :</p>  
-	  <p class="mobile">Mobile </p> 
-      <p class="regid">Registration ID:</p> 
-			 <p class="college">College: </p> 
+			      
+      <p class="name">Srivathsan G:</p>
+      <p class="email">gsrivathsan2001@gmail.com</p>  
+	  <p class="mobile">9971069243</p> 
+
+			 <p class="college">Easwari Engineering College</p> 
       </div>
- 
+ </div>
     </div>
 
 </div>
 </div>
+					  <a class="cyberpunk2077 formsubmit" id="btn-Convert-Html2Image">Download </a >
 					  
-      <script>
+        <script>
+  $(document).ready(function () {
+            var element = $("#html-content-holder"); // global variable
+            var getCanvas; //global variable
+            html2canvas(element, {
+                onrendered: function (canvas) {
+                    getCanvas = canvas;
+                }
+            });
+ 
+            $("#btn-Convert-Html2Image").on('click', function () {
+                var imgageData = getCanvas.toDataURL("image/png");
+                //Now browser starts downloading it instead of just showing it
+                var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+                $("#btn-Convert-Html2Image").attr("download", document.getElementsByClassName("regid")[0].innerHTML+".png").attr("href", newData);
+            });
+        });
+    </script>  <script>
 		  
                   $(window).on("load",function(){
-                     document.getElementsByClassName("name")[0].innerHTML = "Name: "+localStorage.getItem("name");
-					  document.getElementsByClassName("college")[0].innerHTML = "College: "+localStorage.getItem("institute");
-					  document.getElementsByClassName("mobile")[0].innerHTML = "Mobile: "+localStorage.getItem("mobile");
-					    document.getElementsByClassName("email")[0].innerHTML = "Mobile: "+localStorage.getItem("email");
-					  document.getElementsByClassName("regid")[0].innerHTML = "Registration ID: "+localStorage.getItem("regid");
+                     document.getElementsByClassName("name")[0].innerHTML = localStorage.getItem("name");
+					  document.getElementsByClassName("college")[0].innerHTML = localStorage.getItem("institute");
+					  document.getElementsByClassName("mobile")[0].innerHTML =localStorage.getItem("mobile");
+					    document.getElementsByClassName("email")[0].innerHTML =localStorage.getItem("email");
+					  document.getElementsByClassName("regid")[0].innerHTML = localStorage.getItem("regid");
 					  
                 });
                   
@@ -118,16 +141,14 @@
               
                         
                      </script>
-                     <div class="rightside"><img src="logo.png" ></div>
+                     <div class="rightside"><img src="img/logo.png" ></div>
                      <style>
                      </style>
            
                   </div>
                </div>
 			   <div w3-include-html="htmlelements/smoke.html"></div>
-				  <script>
-                        includeHTML();
-                     </script>
+			
             </div>
          </div>
          <style>

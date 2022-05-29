@@ -80,9 +80,7 @@
                   </div>
                </div>
 			   <div w3-include-html="htmlelements/smoke.html"></div>
-				  <script>
-                        includeHTML();
-                     </script> 
+			
             </div>
          </div>
          <style>
@@ -100,17 +98,7 @@
                    
             var obj = document.getElementsByClassName("link");
             for (var i = 0; i < obj.length; i++) {
-            
-            obj[i].addEventListener("mouseenter",function(e){
-            
-             document.getElementsByClassName("linkmain")[0].classList.remove("mainlink");     
-            });
-            obj[i].addEventListener("mouseleave",function(e){
-            if(e.target!=document.getElementsByClassName("dropdownlist")[0] )
-             document.getElementsByClassName("linkmain")[0].classList.add("mainlink")
-            
-            });
-            
+            break;
             }		  
             
             $(".container2").delay(3000).fadeOut();

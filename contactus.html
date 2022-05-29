@@ -2,12 +2,11 @@
    <head>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	   <script src="js/nav.js"></script>
+      <script src="js/nav.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	   	    <link rel="stylesheet" href="css/common.css">
+      <link rel="stylesheet" href="css/common.css">
       <link rel="stylesheet" href="css/contact.css">
-	      <script type="text/javascript" src="js/loading.js"></script>
-
+      <script type="text/javascript" src="js/loading.js"></script>
    </head>
    <body>
       <div class="stripe">
@@ -19,10 +18,10 @@
                      <div class="navitem"><a class="link" href="index.html">Home</a></div>
                      <div class="navitem"><a   href="technicalevents.html">Technical Events</a></div>
                      <div class="navitem"><a  class="link" href="nontechnicalevents.html">Non Technical Events</a></div>
-					     <div class="navitem"><a class="linkmain"    href="onlineevents.html">Online Events</a></div>
+                     <div class="navitem"><a class="linkmain"    href="onlineevents.html">Online Events</a></div>
                      <div class="navitem"><a class="link" href="sponsors.html">Sponsors</a></div>
                      <div class="navitem main"><a class="linkmain mainlink" class="link" href="contactus.html">Contact us</a></div>
-					  <div class="navitem"><a class="link" href="eventregister.html">Registration</a></div>
+                     <div class="navitem"><a class="link" href="eventregister.html">Registration</a></div>
                   </div>
                </div>
             </div>
@@ -31,7 +30,7 @@
             </div>
             <div class="topic1">
                <div class="mainpagecontainer">
-				                     <div class="loading">
+                  <div class="loading">
                      <div class="obj"></div>
                      <div class="obj"></div>
                      <div class="obj"></div>
@@ -40,39 +39,33 @@
                      <div class="obj"></div>
                      <div class="obj"></div>
                      <div class="obj"></div>
-                 </div>
+                  </div>
                   <div class="mainintro" id="typedtext" class="desc">
-  
-					  	  <div class="contactuscontainer">
-					  
-					  <h1>Easwari Engineering College</h1>
-						  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.248048911279!2d80.1795949!3d13.031723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8cd23707b2ddfb87!2sSRM%20Easwari%20Engineering%20College!5e0!3m2!1sen!2sin!4v1652969310750!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-						    <h2 onclick="window.open('tel:6383050174');">Contact us: +91 8925625061 </h2>
-						   <h3>Gokulakrishnan</h3>
-							  						    <h2 onclick="window.open('tel:6383050174');">Contact us: +91 9361385989</h2>
-						   <h3>Kamalakannan</h3>
-							  						    <h2 onclick="window.open('tel:6383050174');">Contact us: +91 7691921495</h2>
-						   <h3>Gavin Gladston</h3>
-					  </div>
-					
-
+                     <div class="contactuscontainer">
+                        <h1>Easwari Engineering College</h1>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.248048911279!2d80.1795949!3d13.031723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8cd23707b2ddfb87!2sSRM%20Easwari%20Engineering%20College!5e0!3m2!1sen!2sin!4v1652969310750!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h3>Gokulakrishnan</h3>
+                        <h2 onclick="window.open('tel:8925625061');"><i class="fa fa-phone" style="font-size:24px"></i> +91 8925625061 </h2>
+                        <h3>Kamalakannan</h3>
+                        <h2 onclick="window.open('tel:9361385989');"><i class="fa fa-phone" style="font-size:24px"></i> +91 9361385989</h2>
+                        <h3>Gavin Gladston</h3>
+                        <h2 onclick="window.open('tel:7691921495');"><i class="fa fa-phone" style="font-size:24px"></i> +91 7691921495</h2>
+                     </div>
                      <div class="rightside"><img src="img/logo.png" ></div>
                      <style>
                      </style>
-              
                   </div>
                </div>
-		   <div w3-include-html="htmlelements/smoke.html"></div>
-				  <script>
-                        includeHTML();
-                     </script> 
+               <div w3-include-html="htmlelements/smoke.html"></div>
+               <script>
+                  includeHTML();
+               </script> 
             </div>
          </div>
          <style>
          </style>
-
          <script>
-			            function register(type)	  {
+            function register(type)	  {
             var btn = document.getElementsByClassName("cyberpunk2077 btnsubmit")[0];
             localStorage.setItem("eventtype",type);
             localStorage.setItem("eventname",btn.value);
@@ -80,31 +73,30 @@
             
             
             }
-                   
+                
             var obj = document.getElementsByClassName("link");
             for (var i = 0; i < obj.length; i++) {
             
             obj[i].addEventListener("mouseenter",function(e){
             
-             document.getElementsByClassName("linkmain")[0].classList.remove("mainlink");     
+            document.getElementsByClassName("linkmain")[0].classList.remove("mainlink");     
             });
             obj[i].addEventListener("mouseleave",function(e){
             if(e.target!=document.getElementsByClassName("dropdownlist")[0] )
-             document.getElementsByClassName("linkmain")[0].classList.add("mainlink")
+            document.getElementsByClassName("linkmain")[0].classList.add("mainlink")
             
             });
             
             }		  
             
             $(".container2").delay(3000).fadeOut();
-            	  $(".stripe").delay(3100).fadeIn();
-             $(".topic1").delay(5000).fadeIn();
-                
+            $(".stripe").delay(3100).fadeIn();
+            $(".topic1").delay(5000).fadeIn();
+             
             
          </script>
          <style>
          </style>
       </div>
-   
    </body>
 </html>

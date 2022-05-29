@@ -13,7 +13,18 @@
       </style>
    </head>
    <body>
-
+      <div class="loadingcontaineratstart">
+         <div class="center">
+            <img src="img/logo.png">
+            <div style="loadingtext">Loading</div>
+            <script>
+               $(window).on("load",function(){
+                           document.getElementsByClassName("loadingcontaineratstart")[0].style.display = "none";
+                    
+                      });
+            </script>
+         </div>
+      </div>
       <div class="stripe">
          <div class="container">
             <div class="topnavcontainer">
@@ -65,14 +76,25 @@
                            techy non-exclusive extravaganza!
                         </p>
                      </div>
+					  <style>
+	
+					  </style>
+					  <div class="eventlinknavholder">
+						  <div class="navlist">
+					  <div class="viewevents"><a href="technicalevents.html">Technical Events</a></div>
+							  <div class="viewevents"><a href="technicalevents.html">Non Technical Events</a></div>
+							  <div class="viewevents"><a href="onlineevents.html">Online Events</a></div>
+							  </div>
+						  </div>
                      <div class="flexelemements"><a href="https://instagram.com/pinnacle2k22?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i> </a><a href="https://youtube.com/channel/UC1RQmAqJOsIqqmrzxVWfbzg"><i class="fa fa-youtube"> </i></a></div>
                      <div class="email" > Email - eecpinnacle19@gmail.com </div>
                   </div>
                   <style>
                   </style>
-                  <div class="rightside"></div>
+                  <div class="rightside"><img src="img/logo.png"></div>
                   <div w3-include-html="htmlelements/smoke.html"></div>
                   <script>
+                
                   </script> 
                </div>
             </div>
