@@ -272,8 +272,8 @@
         }
       ]
     },
-    "Channelsurfing": {
-      "name": "Channelsurfing",
+    "Channel Surfing": {
+      "name": "Channel Surfing",
       "subline": "Game",
       "desc": [],
       "contents": [
@@ -297,7 +297,7 @@
         }
       ]
     },
-    "Treasurehunt": {
+    "Treasure Hunt": {
       "name": "Treasure Hunt",
       "subline": "Game",
       "desc": [],
@@ -356,7 +356,7 @@
         },
         {
             "Incharge": [
-            "Joshua - 9787428467" 
+            "Giridharan - 9840921801" 
           ]
         }
       ]
@@ -390,7 +390,7 @@
         },
         {
           "Incharge": [
-            "Aakash - 9344123482" 
+            "Joshua - 9787428467" 
           ]
         }
       ]
@@ -425,7 +425,7 @@
       "name": "Valorant",
       "subline": "skill",
       "desc": [
-        "Valorant is a free-to-play first-person hero shooter which is Tactical 5v5",
+        "Valorant is a free-to-play first-person hero shooter which is Tactical 5 v 5",
         "Each team must have 5 persons"
       ],
       "contents": [
@@ -433,7 +433,7 @@
           "Rules": [
             "Platform – Account",
             "All players are allowed to have only one (1) account.",
-            "You are not allowed to share or use another person’saccount. Your account is for your use and your use alone.",
+            "You are not allowed to share or use another person’s account. Your account is for your use and your use alone.",
             "Failing to join within 10 minutes after the scheduled time will lead to disqualification."
           ]
         },
