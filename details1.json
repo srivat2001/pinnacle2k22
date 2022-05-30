@@ -5,16 +5,16 @@
       "subline": "DEBUGGING",
       "desc": [
         "The event would be conducted in a Relay manner i.e.",
-        " each teammate should debug one after another.",
-        " Certain hindrances would be there to bring in more fun and to increase the difficulty.",
-        " The complexity would increase with the rounds"
+        "Each teammate should debug one after another.",
+        "Certain hindrances would be there to bring in more fun and to increase the difficulty.",
+        "The complexity would increase with the rounds."
       ],
       "contents": [
         {
           "Rules": [
-            "A team must contain 3 members",
-            "Basic programming knowledge is required",
-            "Discussion among participants will not be entertained.. If found so, the team will be disqualified.",
+            "A team must contain 3 members.",
+            "Basic programming knowledge is required.",
+            "Discussion among participants will not be entertained. If found so, the team will be disqualified.",
             "The winner is determined by the total points of each team."
           ]
         },
@@ -39,7 +39,7 @@
       ],
       "contents": [
         {
-          "rules": [
+          "Rules": [
             "This is an individual event",
             "Participants have to bring their own laptops.",
             "C, C++, Java and Python are allowed.",
@@ -57,7 +57,7 @@
         }
       ]
     },
-    "Brain squeezer": {
+    "Brain Squeezer": {
       "name": "Brain Squeezer",
       "subline": "Technical quiz event",
       "desc": [
@@ -67,10 +67,10 @@
       "contents": [
         {
           "Rules": [
-            "This is an individual event",
+            "This is an individual event.",
             "No of Rounds Will Be Decided Based On The Number Of Participants.",
-            "Candidates should not Involve in Any Kind of Malpractice. If Caught, then the Individual will be Completely Disqualified from the event",
-            "The panel's decision will be the final verdict"
+            "Candidates should not Involve in Any Kind of Malpractice. If Caught, then the Individual will be Completely Disqualified from the event.",
+            "The panel's decision will be the final verdict."
           ]
         },
         {
@@ -88,18 +88,18 @@
       "subline": "UI/UX Design",
       "desc": [
         "This is an individual event which takes place for 1.5 hours.","It is a single round event where the participants will be given a theme on the spot."
-	      ," The winner would be chosen based on judge's decision."
+	      ,"The winner would be chosen based on judge's decision."
       ],
       "contents": [
         {
-          "rules": [
+          "Rules": [
             "This is an Individual event.",
             "Participants have to bring their own laptops.",
             "Designing can be done in Figma/ Adobe XD.",
             "Design should not be done prior to the competition.",
             "Participants should share their project URL.",
             "Participants can use images of their own if necessary.",
-            "Participants should not use the pre-defined components from the external resources"
+            "Participants should not use the pre-defined components from the external resources."
           ]
         },
         {
@@ -112,7 +112,7 @@
         }
       ]
     },
-    "SharkTank": {
+    "Shark Tank": {
       "name": "Shark Tank",
       "subline": "Buisness",
       "desc": [
@@ -132,8 +132,8 @@
         },
         {
           "Rounds": [
-            "First round :Ideas would be pitched to professors",
-            "Second round (Shortlisted teams):Ideas would be pitched to investors"
+            "First round :Ideas would be pitched to professors.",
+            "Second round (Shortlisted teams):Ideas would be pitched to investors."
           ]
         },
         {
@@ -147,12 +147,12 @@
       "name": "Connexus",
       "subline": "quiz",
       "desc": [
-        "This would be a buzzer based event. A couple of pictures will be displayed on a projector. ",
+        "This would be a buzzer based event. A couple of pictures will be displayed on a projector.",
         "The participants must identify a technical word by analyzing all the photos given as clues."
       ],
       "contents": [
         {
-          "rules": [
+          "Rules": [
             "A team must contain 3 members",
             "Whichever team hits the buzzer first should answer within 10 seconds.",
             "Host will decide who hit the buzzer first. Host’s decision would be final"
@@ -196,7 +196,7 @@
         }
       ]
     },
-    "Boxcricket": {
+    "Box cricket": {
       "name": "Box cricket",
       "subline": "Game",
       "desc": [
@@ -207,10 +207,10 @@
           "Rules": [
             "5 players per team + 2",
             "Number of overs : 4",
-            "The umpire’s decision is final",
-            "Refund of the registration fee will not be entertained strictly",
+            "The umpire’s decision is final.",
+            "Refund of the registration fee will not be entertained strictly.",
             "Fixtures based on number of entries.",
-            "The organizing committee has full authority to revise the rules of the game"
+            "The organizing committee has full authority to revise the rules of the game."
           ]
         },
         {
@@ -231,9 +231,9 @@
         {
           "Rules": [
             "2 players per team (2 v 2)",
-            "Time : 6 minutes per half",
+            "Time : 6 minutes per half.",
             "Fixtures based on number of entries.",
-            "Refund of the registration fee will not be entertained strictly"
+            "Refund of the registration fee will not be entertained strictly."
           ]
         },
         {
@@ -253,16 +253,15 @@
       "contents": [
         {
           "Rules": [
-            "Bring your own device with proper internet connection ",
-            "Refund of the registration fee will not be entertained strictly",
+            "Bring your own device with proper internet connection.",
+            "Refund of the registration fee will not be entertained strictly.",
             "Fixtures based on number of entries.",
-            "Refund of the registration fee will not be entertained strictly",
-            "First place vs Second place from round 1",
-            "Third place vs Fourth place from round 1"
+            "Refund of the registration fee will not be entertained strictly."
+   
           ]
         },
         {
-          "Rounds": []
+          "Rounds": ["First place vs Second place from round 1.","Third place vs Fourth place from round 1."]
         },
         {
        
@@ -278,13 +277,13 @@
       "desc": [],
       "contents": [
         {
-          "rules": [
-            "A team must contain 5-6 members",
-            "All the members of the team must be included in the enacting",
-            "Every team gets around 4-5 minutes of enacting time",
-            "No preparation time will be given",
-            "No vulgarity will be entertained",
-            "Judge’s decision will be final"
+          "Rules": [
+            "A team must contain 5-6 members.",
+            "All the members of the team must be included in the enacting".,
+            "Every team gets around 4-5 minutes of enacting time.",
+            "No preparation time will be given.",
+            "No vulgarity will be entertained.",
+            "Judge’s decision will be final."
           ]
         },
         {
@@ -303,12 +302,12 @@
       "desc": [],
       "contents": [
         {
-          "rules": [
-            "A team must contain 5-6 members",
-            "The hints will be placed in various locations around the campus",
-            "Hints will be given through a QR code which you can scan using your mobiles",
-            "The QR scan code gives the hint to proceed for the next QR scan",
-            "Winners will be based on the minimal finishing time"
+          "Rules": [
+            "A team must contain 5-6 members.",
+            "The hints will be placed in various locations around the campus.",
+            "Hints will be given through a QR code which you can scan using your mobiles.",
+            "The QR scan code gives the hint to proceed for the next QR scan.",
+            "Winners will be based on the minimal finishing time."
           ]
         },
         {
@@ -316,7 +315,7 @@
         },
         {
            "Incharge": [
-            "Srinithi- 9445358021" 
+            "Shrinithi- 9445358021" 
           ]
         }
       ]
@@ -327,10 +326,10 @@
       "desc": [],
       "contents": [
         {
-          "rules": [
-            "The participants will have 2 minutes time for preparation and 3 minutes on stage",
-            "They will be given 2 minutes to convince the judge as to why they should get the job",
-            "Jobs on which they have to perform will be given on spot"
+          "Rules": [
+            "The participants will have 2 minutes time for preparation and 3 minutes on stage.",
+            "They will be given 2 minutes to convince the judge as to why they should get the job.",
+            "Jobs on which they have to perform will be given on spot."
           ]
         },
         {
@@ -391,12 +390,12 @@
         {
           "Rules": [
             "Must be able to do the following:",
- "Properly move all of the chess pieces",
+ "Properly move all of the chess pieces.",
  "Understand pawn promotion.",
- "Understand rules for “advanced” moves: Castling and en passant capture (note: please ask the organizer in case of any confusion about en passant rule )",
-"Understand Check and the ways to get out of check (move, block, capture)",
-"Understand Checkmate",
- "Understand the “touch-move” rule",
+ "Understand rules for “advanced” moves: Castling and en passant capture (note: please ask the organizer in case of any confusion about en passant rule ).",
+"Understand Check and the ways to get out of check (move, block, capture).",
+"Understand Checkmate.",
+ "Understand the “touch-move” rule.",
  "Understand 50 moves draw rule i.e. the game can be claimed drawn after 50 moves if there are no pawn moves or no captures.",
  "Understand 3 fold repetition rule. the game can be claimed drawn if the exact same position is repeated thrice.",
  "No outside assistance during games is allowed.",
@@ -422,11 +421,11 @@
       "contents": [
         {
           "Rules": [
-            "Participants should strictly follow the theme",
-            "Only one entry from each participant is considered",
-            "The photos can be captured through mobile and DSLR camera",
-            "Basic editing is allowed",
-            "The photograph should not contain any watermark"
+            "Participants should strictly follow the theme.",
+            "Only one entry from each participant is considered.",
+            "The photos can be captured through mobile and DSLR camera.",
+            "Basic editing is allowed.",
+            "The photograph should not contain any watermark."
           ]
         },
         {
@@ -443,13 +442,13 @@
       "name": "Valorant",
       "subline": "skill",
       "desc": [
-        "Valorant is a free-to-play first-person hero shooter which is Tactical 5 v 5",
-        "Each team must have 5 persons"
+        "Valorant is a free-to-play first-person hero shooter which is Tactical 5 v 5.",
+        "Each team must have 5 persons."
       ],
       "contents": [
         {
           "Rules": [
-            "Platform – Account",
+            "Platform – Account.",
             "All players are allowed to have only one (1) account.",
             "You are not allowed to share or use another person’s account. Your account is for your use and your use alone.",
             "Failing to join within 10 minutes after the scheduled time will lead to disqualification."
@@ -470,10 +469,10 @@
         },
         {
           "BEST-OF-THREE (from semi finals)": [
-            "Team A picks a map (played first in the best-of-three)",
-            "Team B picks a side for map 1 and pick map 2 (played second in the best-of-three)",
-            "Team A picks a side",
-            "Admin randomizes the map to be played between the last 3 maps, side choice goes to the higher seed (better record) coming out of groups"
+            "Team A picks a map (played first in the best-of-three).",
+            "Team B picks a side for map 1 and pick map 2 (played second in the best-of-three).",
+            "Team A picks a side.",
+            "Admin randomizes the map to be played between the last 3 maps, side choice goes to the higher seed (better record) coming out of groups."
           ]
         },
         {
@@ -486,8 +485,8 @@
             "Speed hacks",
             "Aim hacks",
             "Hitbox manipulation",
-            "Teleportation (any kind of teleportation, which is not possible in the game)",
-            "The usage of a bug/bugs to gain an advantage versus your opponents"
+            "Teleportation (any kind of teleportation, which is not possible in the game).",
+            "The usage of a bug/bugs to gain an advantage versus your opponents."
           ]
         },{
 			
@@ -504,10 +503,10 @@
           "Rules": [
             "This is an Individual event.",
             "Participants are allowed to sing in any language.",
-            "Participants must record and send their videos before the deadline",
-            "The video must not exceed more than 2 minutes",
-            "Any form of vulgarity will lead to disqualification",
-			  "Decision of the Judges will be final"
+            "Participants must record and send their videos before the deadline.",
+            "The video must not exceed more than 2 minutes.",
+            "Any form of vulgarity will lead to disqualification.",
+			  "Decision of the Judges will be final."
           ]
         },
         {
