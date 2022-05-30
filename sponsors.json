@@ -1,16 +1,544 @@
 {
-  "sponsorslist": [{
-				   "name":"Smoke Hub","imgurl":"https://i.ibb.co/2PFbWn3/smokeupforsponsors.jpg","link":"https://smokehubbarbeque.nowfloats.com/"},{
-				   "name":"Zephyr","imgurl":"https://i.ibb.co/KK6k3g7/zephyrforsponsors.jpg","link":"#"},
-				   {
-				   "name":"Shreded Society Fitness studio","imgurl":"https://i.ibb.co/1KPb4Wt/shreded.jpg","link":"#"}
-				   
-,{
-				   "name":"<style>.rightside {position: fixed;width: 40%;right: 160;transform: rotate(-30deg);z-index: -5;top: 60;} .grid-item:last-child{display:none}</style>","imgurl":"","link":"#"
-				   
-				   
-				   
-				   }
-				  
-				  ]
+  "Technical": {
+    "Bugsmash": {
+      "name": "Bugsmash",
+      "subline": "DEBUGGING",
+      "desc": [
+        "The event would be conducted in a Relay manner i.e.",
+        " each teammate should debug one after another.",
+        " Certain hindrances would be there to bring in more fun and to increase the difficulty.",
+        " The complexity would increase with the rounds"
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "A team must contain 3 members.",
+            "Basic programming knowledge is required.",
+            "Discussion among participants will not be entertained.. If found so, the team will be disqualified.",
+            "The winner is determined by the total points of each team."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Incharge": [
+            "Janani - 8144171965" 
+          ]
+        }
+      ]
+    },
+    "Codezilla": {
+      "name": "Codezilla",
+      "subline": "DEBUGGING",
+      "desc": [
+        "It would be conducted in 3 rounds.",
+        "The first round would be basic programming",
+        "Second round would be Reverse Coding.",
+        "And in the third round company specific questions would be asked and based on your performance, you may be offered an internship!!!."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "This is an individual event",
+            "Participants have to bring their own laptops.",
+            "C, C++, Java and Python are allowed.",
+            "Any malpractice will not be entertained",
+            "Judges decision will be final"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Incharge": [
+             "Pritham ganesh - 9003915907" 
+          ]
+        }
+      ]
+    },
+    "Brain Squeezer": {
+      "name": "Brain Squeezer",
+      "subline": "Technical quiz event",
+      "desc": [
+        "The questions will be displayed on a projector and the candidate has to answer the questions.",
+        "Certain hindrances will be given to add in fun and distract the contestants."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "This is an individual event.",
+            "No of Rounds Will Be Decided Based On The Number Of Participants.",
+            "Candidates should not Involve in Any Kind of Malpractice. If Caught, then the Individual will be Completely Disqualified from the event.",
+            "The panel's decision will be the final verdict."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+         "Incharge": [
+            "Ilakkiya - 9962707727" 
+          ]
+        }
+      ]
+    },
+    "iDesign": {
+      "name": "iDesign",
+      "subline": "UI/UX Design",
+      "desc": [
+        "This is an individual event which takes place for 1.5 hours.","It is a single round event where the participants will be given a theme on the spot."
+	      ," The winner would be chosen based on judge's decision."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "This is an Individual event.",
+            "Participants have to bring their own laptops.",
+            "Designing can be done in Figma/ Adobe XD.",
+            "Design should not be done prior to the competition.",
+            "Participants should share their project URL.",
+            "Participants can use images of their own if necessary.",
+            "Participants should not use the pre-defined components from the external resources."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+               "Incharge": [
+            "Vijaykumar - 7200041019" 
+          ]
+        }
+      ]
+    },
+    "Shark Tank": {
+      "name": "Shark Tank",
+      "subline": "Buisness",
+      "desc": [
+        "This event is to provide a platform for people to build their entrepreneurial journey by pitching and validating their ideas so that they can be implemented and get a chance to network with like-minded industry professionals."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "A team can have a maximum of 5 students.",
+            "Create a pitch deck with your ideas and upload the following documents, including all the details contained in Guideline.",
+            "Each Team will have ten minutes to present their ideas.",
+            "Copying an idea is strictly prohibited and disqualifies you.",
+            "The jury's decision is final.",
+			"Teams can bring their prototypes, if any. The team should take full responsibility for their prototypes. We are not responsible for any loss.",
+            "The win will be based on the innovativeness and feasibility of the presented idea."
+          ]
+        },
+        {
+          "Rounds": [
+            "First round :Ideas would be pitched to professors.",
+            "Second round (Shortlisted teams):Ideas would be pitched to investors."
+          ]
+        },
+        {
+        "Incharge": [
+            "Gavin Gladston - 7691921495" 
+          ]
+        }
+      ]
+    },
+    "Connexus": {
+      "name": "Connexus",
+      "subline": "quiz",
+      "desc": [
+        "This would be a buzzer based event. A couple of pictures will be displayed on a projector.",
+        "The participants must identify a technical word by analyzing all the photos given as clues."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "A team must contain 3 members.",
+            "Whichever team hits the buzzer first should answer within 10 seconds.",
+            "Host will decide who hit the buzzer first. Host’s decision would be final."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+            "Incharge": [
+            "Afra thahseen - 8680818184" 
+          ]
+        }
+      ]
+    }
+  },
+  "NonTechnical": {
+    "Futsal": {
+      "name": "Futsal",
+      "subline": "Game",
+      "desc": [
+        "A 3's football match of duration 4 mins per half where any team can participate with 2 rolling substitutes and the fixtures will be based on the number of teams registered."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "Team length-3+2 (rolling substitutes)",
+            "Time : 4 - 1 - 4",
+            "Refund of the registration fee will not be entertained strictly.",
+            "Fixtures based on number of entries.",
+            "The organizing committee has full authority to revise the rules of the game."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+            "Incharge": [
+            "Laksman - 9884595403" 
+          ]
+        }
+      ]
+    },
+    "Box cricket": {
+      "name": "Box cricket",
+      "subline": "Game",
+      "desc": [
+        "Cricket match with 5 players per team will be conducted in a box shaped field with under arm bowling and the fixtures will be based on the number of teams registered."
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "5 players per team + 2",
+            "Number of overs : 4",
+            "The umpire’s decision is final",
+            "Refund of the registration fee will not be entertained strictly.",
+            "Fixtures based on number of entries.",
+            "The organizing committee has full authority to revise the rules of the game."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+            "Incharge": [
+            "Ethiraj - 9344432023" 
+          ]
+        }
+      ]
+    },
+    "Fifa": {
+      "name": "Fifa",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "2 players per team (2 v 2).",
+            "Time : 6 minutes per half.",
+            "Fixtures based on number of entries.",
+            "Refund of the registration fee will not be entertained strictly."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+           "Incharge": [
+            "Kailash - 9790872193" 
+          ]
+        }
+      ]
+    },
+    "BGMI": {
+      "name": "BGMI",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "Bring your own device with proper internet connection.",
+            "Refund of the registration fee will not be entertained strictly.",
+            "Fixtures based on number of entries.",
+            "Refund of the registration fee will not be entertained strictly."
+        
+          ]
+        },
+        {
+          "Rounds": ["First place vs Second place from round 1.","Third place vs Fourth place from round 1."]
+        },
+        {
+       
+           "Incharge": [
+            "Siddhtarth - 7299990709" 
+          ]
+        }
+      ]
+    },
+    "Channel Surfing": {
+      "name": "Channel Surfing",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "A team must contain 5-6 members.",
+            "All the members of the team must be included in the enacting.",
+            "Every team gets around 4-5 minutes of enacting time.",
+            "No preparation time will be given.",
+            "No vulgarity will be entertained.",
+            "Judge’s decision will be final."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+               "Incharge": [
+            "Shiva Harini - 8838674137" 
+          ]
+        }
+      ]
+    },
+    "Treasure Hunt": {
+      "name": "Treasure Hunt",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "A team must contain 5-6 members.",
+            "The hints will be placed in various locations around the campus.",
+            "Hints will be given through a QR code which you can scan using your mobiles.",
+            "The QR scan code gives the hint to proceed for the next QR scan.",
+            "Winners will be based on the minimal finishing time."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+           "Incharge": [
+            "Shrinithi - 9445358021" 
+          ]
+        }
+      ]
+    },
+    "Job wreck": {
+      "name": "Job wreck",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "The participants will have 2 minutes time for preparation and 3 minutes on stage.",
+            "They will be given 2 minutes to convince the judge as to why they should get the job.",
+            "Jobs on which they have to perform will be given on spot."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+         "Incharge": [
+            "Sathya - 9360365458" 
+          ]
+        }
+      ]
+    },
+    "Dizzy Target": {
+      "name": "Dizzy target",
+      "subline": "Game",
+      "desc": ["Dizzy target is a fun game where the player has to rotate around with the ball and get dizzy. Once the player is dizzy, a target will be given in which the player has to aim accurately."],
+      "contents": [
+        {
+          "rules": []
+        },
+        {
+          "Rounds": []
+        },
+        {
+            "Incharge": [
+            "Aakash - 9344123482" 
+          ]
+        }
+      ]
+    },
+    "Tug of War": {
+      "name": "Tug of War",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": ["Knock out rounds will be conducted.","A team must consist of a maximum of 6 members.","3 rounds per match.","Fixtures based on number of entries.","Refund of the registration fee will not be entertained strictly.","The organizing committee has full authority to revise the rules of the game."]
+        },
+        {
+          "Rounds": []
+        },
+        {
+            "Incharge": [
+            "Giridharan - 9840921801" 
+          ]
+        }
+      ]
+    },
+    "Chess": {
+      "name": "Chess",
+      "subline": "skill",
+      "desc": ["Games will be played on Real boards so players can bring his/her own board.",
+"The players will be paired randomly.",
+"Time for initial rounds will be 30 minutes.",
+"clock time might be the same or little longer for subsequent rounds.",
+"A fixed number of rounds is played and at each round people are matched against others who have scored the same number of points."],
+      "contents": [
+        {
+          "Rules": [
+            "Must be able to do the following:",
+ "Properly move all of the chess pieces.",
+ "Understand pawn promotion.",
+ "Understand rules for “advanced” moves: Castling and en passant capture (note: please ask the organizer in case of any confusion about en passant rule )",
+"Understand Check and the ways to get out of check (move, block, capture)",
+"Understand Checkmate",
+ "Understand the “touch-move” rule",
+ "Understand 50 moves draw rule i.e. the game can be claimed drawn after 50 moves if there are no pawn moves or no captures.",
+ "Understand 3 fold repetition rule. the game can be claimed drawn if the exact same position is repeated thrice.",
+ "No outside assistance during games is allowed.",
+"In case of any confusion/disputes talk to the tournament organizers."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Incharge": [
+            "Joshua - 9787428467" 
+          ]
+        }
+      ]
+    }
+  },
+  "OnlineEvents": {
+    "Photography": {
+      "name": "Photography",
+      "subline": "skill",
+      "desc": [],
+      "contents": [
+        {
+          "Rules": [
+            "Participants should strictly follow the theme",
+            "Only one entry from each participant is considered",
+            "The photos can be captured through mobile and DSLR camera",
+            "Basic editing is allowed",
+            "The photograph should not contain any watermark"
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Incharge": [
+            "Dani - 6381263343" 
+          ]
+        }
+      ]
+    },
+    "Valorant": {
+      "name": "Valorant",
+      "subline": "skill",
+      "desc": [
+        "Valorant is a free-to-play first-person hero shooter which is Tactical 5 v 5",
+        "Each team must have 5 persons"
+      ],
+      "contents": [
+        {
+          "Rules": [
+            "Platform – Account",
+            "All players are allowed to have only one (1) account.",
+            "You are not allowed to share or use another person’s account. Your account is for your use and your use alone.",
+            "Failing to join within 10 minutes after the scheduled time will lead to disqualification."
+          ]
+        },
+        {
+        "Incharge": [
+            "Sivaramkumar - 7397402053" 
+          ]
+        }
+        ,
+        {
+          "TEAMS AND ROSTERS": [
+            "Each team’s roster must consist of at least 5 players.",
+            "Each team’s roster will be allowed to have 5 main players and 1 substitute. Once the match starts, you cannot replace any player.",
+            "A player is allowed to represent only one (1) team’s roster in the same tournament."
+          ]
+        },
+        {
+          "BEST-OF-THREE (from semi finals)": [
+            "Team A picks a map (played first in the best-of-three).",
+            "Team B picks a side for map 1 and pick map 2 (played second in the best-of-three).",
+            "Team A picks a side.",
+            "Admin randomizes the map to be played between the last 3 maps, side choice goes to the higher seed (better record) coming out of groups."
+          ]
+        },
+        {
+          "CHEATING": [
+            "It is forbidden to cheat, modify the game files, exploit bugs, and/or use any third-party application which would give an unfair advantage against other users.",
+            "All cheats are completely forbidden to use under any circumstance while playing in tournament . Using any cheat will result in bans and disqualifications. This includes, but are not limited to:",
+            "ESP",
+            "Radar hacks",
+            "Wallhacks",
+            "Speed hacks",
+            "Aim hacks",
+            "Hitbox manipulation",
+            "Teleportation (any kind of teleportation, which is not possible in the game).",
+            "The usage of a bug/bugs to gain an advantage versus your opponents."
+          ]
+        },{
+			
+			"Contact":[]
+		}
+      ]
+    }, 
+	 "Solo singing": {
+      "name": "Solo singing",
+      "subline": "skill",
+      "desc": ["This is an individual contest. There is no language barrier. It's your platform to sing your hearts out ."," Contestants are required to sing for 2-3 mins.  Referring lyrics must be avoided."],
+      "contents": [
+        {
+          "Rules": [
+            "This is an Individual event.",
+            "Participants are allowed to sing in any language.",
+            "Participants must record and send their videos before the deadline.",
+            "The video must not exceed more than 2 minutes.",
+            "Any form of vulgarity will lead to disqualification.",
+			  "Decision of the Judges will be final."
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+          "Incharge": [
+            "Bhargavi - 8939909567" 
+          ]
+        }
+      ]
+    },
+	   "Logo Designing": {
+      "name": "Logo Designing",
+      "subline": "skill",
+      "desc": ["A team of 1-2 persons can participate.The event will be conducted where the team should replicate the logo of an ecommerce platform called Zakya. The participants with best logo wins."],
+      "contents": [
+        {
+          "Rules": [
+          ]
+        },
+        {
+          "Rounds": []
+        },
+        {
+           "Incharge": [
+            "Rohit Amrose - 9360209960" 
+          ]
+        }
+      ]
+    }
+  
+  
   }
+}
