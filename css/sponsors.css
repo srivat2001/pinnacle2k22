@@ -95,6 +95,14 @@ flex-direction: column;
 width: 200px;
 overflow: hidden;
 	height: 150px;}
+.rightside {
+  position: fixed;
+  width: 40%;
+  right: 250px;
+  transform: rotate(-30deg);
+  z-index: -5;
+  top: 60px;
+}
 @media only screen and (max-width:780px) {
 	.rightside{
 		
