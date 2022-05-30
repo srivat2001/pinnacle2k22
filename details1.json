@@ -356,6 +356,24 @@
         },
         {
             "Incharge": [
+            "Aakash - 9344123482" 
+          ]
+        }
+      ]
+    },
+    "Tug of War": {
+      "name": "Tug of War",
+      "subline": "Game",
+      "desc": [],
+      "contents": [
+        {
+          "rules": ["Knock out rounds will be conducted.","A team must consist of a maximum of 6 members.","3 rounds per match.","Fixtures based on number of entries.","Refund of the registration fee will not be entertained strictly.","The organizing committee has full authority to revise the rules of the game."]
+        },
+        {
+          "Rounds": []
+        },
+        {
+            "Incharge": [
             "Giridharan - 9840921801" 
           ]
         }
