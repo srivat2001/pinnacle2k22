@@ -505,16 +505,10 @@
 	   "Logo Designing": {
       "name": "Logo Designing",
       "subline": "skill",
-      "desc": ["This is an individual contest. There is no language barrier. It's your platform to sing your hearts out ."," Contestants are required to sing for 2-3 mins.  Referring lyrics must be avoided."],
+      "desc": ["A team of 1-2 persons can participate.The event will be conducted where the team should replicate the logo of an ecommerce platform called Zakya. The participants with best logo wins."],
       "contents": [
         {
           "Rules": [
-            "This is an Individual event.",
-            "Participants are allowed to sing in any language.",
-            "Participants must record and send their videos before the deadline",
-            "The video must not exceed more than 2 minutes",
-            "Any form of vulgarity will lead to disqualification",
-			  "Decision of the Judges will be final"
           ]
         },
         {
