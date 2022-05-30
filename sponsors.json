@@ -1,7 +1,16 @@
 {
   "sponsorslist": [{
 				   "name":"Smoke Hub","imgurl":"https://i.ibb.co/2PFbWn3/smokeupforsponsors.jpg","link":"https://smokehubbarbeque.nowfloats.com/"},{
-				   "name":"Zephyr","imgurl":"https://i.ibb.co/KK6k3g7/zephyrforsponsors.jpg","link":"#"}
+				   "name":"Zephyr","imgurl":"https://i.ibb.co/KK6k3g7/zephyrforsponsors.jpg","link":"#"},
+				   {
+				   "name":"Shreded Society Fitness studio","imgurl":"https://i.ibb.co/1KPb4Wt/shreded.jpg","link":"#"}
+				   
+,{
+				   "name":"<style>.rightside {position: fixed;width: 40%;right: 160;transform: rotate(-30deg);z-index: -5;top: 60;} .grid-item:last-child{display:none}</style>","imgurl":"","link":"#"
+				   
+				   
+				   
+				   }
 				  
 				  ]
   }
