@@ -1,7 +1,7 @@
 {
   "Technical": {
-    "BUGSMASH": {
-      "name": "BUGSMASH",
+    "Bugsmash": {
+      "name": "Bugsmash",
       "subline": "DEBUGGING",
       "desc": [
         "The event would be conducted in a Relay manner i.e.",
@@ -22,7 +22,7 @@
           "Rounds": []
         },
         {
-          "Student incharge": [
+          "Incharge": [
             "Janani - 8144171965" 
           ]
         }
@@ -51,7 +51,7 @@
           "Rounds": []
         },
         {
-          "Student incharge": [
+          "Incharge": [
              "Pritham ganesh - 9003915907" 
           ]
         }
@@ -77,8 +77,8 @@
           "Rounds": []
         },
         {
-         "Student incharge": [
-            "Ilakkiya - 9444842436" 
+         "Incharge": [
+            "Ilakkiya - 9962707727" 
           ]
         }
       ]
@@ -87,16 +87,15 @@
       "name": "iDesign",
       "subline": "UI/UX Design",
       "desc": [
-        "This is an individual event which takes place for 2 hours",
-        "It is a single round event where the participants will be given a website to recreate the UI/UX. ",
-        "The participant whose design is closest to the website wins."
+        "This is an individual event which takes place for 1.5 hours.","It is a single round event where the participants will be given a theme on the spot."
+	      ," The winner would be chosen based on judge's decision."
       ],
       "contents": [
         {
           "rules": [
             "This is an Individual event.",
             "Participants have to bring their own laptops.",
-            "Designing can be done in any platform they're comfortable in.",
+            "Designing can be done in Figma/ Adobe XD.",
             "Design should not be done prior to the competition.",
             "Participants should share their project URL.",
             "Participants can use images of their own if necessary.",
@@ -107,7 +106,7 @@
           "Rounds": []
         },
         {
-               "Student Incharge": [
+               "Incharge": [
             "Vijaykumar - 7200041019" 
           ]
         }
@@ -138,14 +137,14 @@
           ]
         },
         {
-        "Student Incharge": [
+        "Incharge": [
             "Gavin Gladston - 7691921495" 
           ]
         }
       ]
     },
-    "Connections-Connexus": {
-      "name": "Connections-Connexus",
+    "Connexus": {
+      "name": "Connexus",
       "subline": "quiz",
       "desc": [
         "This would be a buzzer based event. A couple of pictures will be displayed on a projector. ",
@@ -163,7 +162,7 @@
           "Rounds": []
         },
         {
-            "Student Incharge": [
+            "Incharge": [
             "Afra thahseen - 8680818184" 
           ]
         }
