@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100; 0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100; 0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Koulen&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap);
@@ -858,9 +858,9 @@ h4.cyberpunk:before {
 
 	display: none;
 
-bottom: 0px;
-left: 2px;
-width: 100%;
+	bottom: 0px;
+	left: 2px;
+	width: 100%;
 }
 
 h1.cyberpunk.glitched {
@@ -1055,6 +1055,7 @@ h4.cyberpunk:after {
 	animation-direction: reverse;
 	animation-duration: calc(var(--glitched-duration)/ 2)
 }
+
 h1.cyberpunk:before,
 h2.cyberpunk:before,
 h3.cyberpunk:after,
@@ -1072,6 +1073,7 @@ h4.cyberpunk:before {
 	animation-direction: reverse;
 	animation-duration: calc(var(--glitched-duration)/ 2)
 }
+
 @keyframes hxafter {
 	0% {
 		opacity: 0
@@ -1694,20 +1696,22 @@ body {
 
 	color: #0256ac;
 }
+
 .email {
 
-background-color: white;
-width: fit-content;
-padding: 0.2rem;
-  padding-right: 0.2rem;
-  padding-left: 0.2rem;
-padding-left: 10px;
-padding-right: 10px;
-border-radius: 10px;
-margin-top: 15;
-color: black;
-font-weight: 400;
+	background-color: white;
+	width: fit-content;
+	padding: 0.2rem;
+	padding-right: 0.2rem;
+	padding-left: 0.2rem;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	margin-top: 15;
+	color: black;
+	font-weight: 400;
 }
+
 @media only screen and (max-width: 1050px) {
 	.rightside {
 		position: absolute;
@@ -1728,12 +1732,11 @@ font-weight: 400;
 		position: fixed;
 		top: 0px;
 		height: 100vh;
-		
-		
-	}
-	@keyframes 
 
-	.responsivenavbarborder {
+
+	}
+
+	@keyframes .responsivenavbarborder {
 		padding-left: 20px;
 		margin-top: 20px;
 		height: 230px;
@@ -1843,10 +1846,9 @@ h1 {
 	margin-right: auto;
 	position: relative;
 	top: 0px;
-	
+
 
 }
-
 
 
 .middlelogo {
@@ -1862,10 +1864,10 @@ h1 {
 	}
 
 	h1.cyberpunk.glitched {
-position: relative;
-left: 18px;
-text-align: center;
-margin-top: 8;
+		position: relative;
+		left: 18px;
+		text-align: center;
+		margin-top: 8;
 	}
 
 	.descholder {
@@ -1877,7 +1879,7 @@ margin-top: 8;
 
 	.middlelogo {
 
-		
+
 		width: 240px;
 		height: 250px;
 		background-position: center;
@@ -1886,29 +1888,32 @@ margin-top: 8;
 		display: block;
 		margin: auto;
 		position: relative;
-        top: 0;
-        animation: fromup 1s 1s forwards;
+		top: 0;
+		animation: fromup 1s 1s forwards;
 		opacity: 0;
-		
+
 	}
 
 
 }
-	@keyframes fromup {
-		0%{
-				top: 200px;
-			opacity: 0;
-		}
-		100%{
-			
-			top: 0;
-			opacity: 1;
-		}
+
+@keyframes fromup {
+	0% {
+		top: 200px;
+		opacity: 0;
 	}
+
+	100% {
+
+		top: 0;
+		opacity: 1;
+	}
+}
+
 p.cyberpunk.inverse {
 
 	padding: 20px 15px 30px;
-margin-bottom: 0px;
+	margin-bottom: 0px;
 
 }
 
@@ -1998,91 +2003,99 @@ margin-bottom: 0px;
 		opacity: 1;
 	}
 }
-.eventlinknavholder{
+
+.eventlinknavholder {
 	display: none;
 }
-.flexelemements{
-	
+
+.flexelemements {
+
 	margin-top: 30px;
 }
-	@media only screen and (max-width:1050px) {
-						  .flexelemements{
-	
-	margin-top: 3px;
-	
-}
-		.email{
-			
-			margin-bottom: 1rem;
-		}
-					 .eventlinknavholder{
-							  
-							  display: flex;
-							  position: relative;
-							  top: -40px;
-						  }
-						  .viewevents{
-							background-color: #00ffff78;
-color: white;
-padding: 0.2rem;
-  padding-right: 0.2rem;
-  padding-left: 0.2rem;
-padding-right: 0.2rem;
-padding-left: 0.2rem;
-border-radius: 15px;
-padding-left: 0.5rem;
-padding-right: 0.5rem;
-margin-top: 10px;
-width: fit-content;
-							  margin-left: auto;
-						  }
-						  						  .viewevents a{
-						
-color: white;
-													  text-decoration: none;
 
-						  }
-						  	  .navlist{
-							  
-							  margin-left: auto;
-						  }		  
-					
-						 
-		.rightside {
+@media only screen and (max-width:1050px) {
+	.flexelemements {
 
-			display: none;
-		}
-
-		.loading {
-			position: absolute;
-			left: 50%;
-			top: 20%;
-			transform: translate(-50%, -50%);
-			height: 40px;
-			display: flex;
-			align-items: center
-		}
+		margin-top: 3px;
 
 	}
 
-	.stripe {}
+	.email {
 
-	.loadingcontaineratstart {
-		height: 200px;
+		margin-bottom: 1rem;
+	}
+
+	.eventlinknavholder {
+
+		display: flex;
 		position: relative;
-		height: 100%;
+		top: -40px;
 	}
 
-	.loadingcontaineratstart .center {
-		margin: 0;
+	.viewevents {
+  background-color: #0000008c;
+		color: white;
+		padding: 0.2rem;
+		padding-right: 0.2rem;
+		padding-left: 0.2rem;
+		padding-right: 0.2rem;
+		padding-left: 0.2rem;
+		border-radius: 15px;
+
+		margin-top: 10px;
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+	}
+
+	.viewevents a {
+
+		color: white;
+		text-decoration: none;
+
+	}
+
+	.navlist {
+
+		margin-left: auto;
+		width: 100%;
+	}
+
+
+	.rightside {
+
+		display: none;
+	}
+
+	.loading {
 		position: absolute;
-		top: 50%;
 		left: 50%;
-		-ms-transform: translate(-50%, -50%);
+		top: 20%;
 		transform: translate(-50%, -50%);
+		height: 40px;
+		display: flex;
+		align-items: center
 	}
 
-	.loadingcontaineratstart .center img {
-		width: 250px;
-	}
+}
 
+.stripe {}
+
+.loadingcontaineratstart {
+	height: 200px;
+	position: relative;
+	height: 100%;
+}
+
+.loadingcontaineratstart .center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.loadingcontaineratstart .center img {
+	width: 250px;
+}
