@@ -8,6 +8,20 @@
       <script type="text/javascript" src="js/loading.js"></script>
       <link rel="stylesheet" href="css/common.css">
       <link rel="stylesheet" href="css/success.css">
+	      <meta charset="UTF-8">
+	     <meta name="description" content="Easwari Engineering College's Department of Information Technology brings to you, the biggest symposium for all the greatest minds to come together and showcase their talents with a mix of exciting events and have industry experts share their ideas and insights on various fields.8th June 22 - Save the date, and find yourself at the pinnacle of this techy non-exclusive extravaganza!">
+  <meta name="keywords" content="Pinnacle, symposium, JavaScript">
+  <meta name="author" content="IT Department">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta data-rh="true" property="og:description" content="Easwari Engineering College's Department of Information Technology brings to you, the biggest symposium for all the greatest minds to come together and showcase their talents with a mix of exciting events and have industry experts share their ideas and insights on various fields.8th June 22 - Save the date, and find yourself at the pinnacle of this techy non-exclusive extravaganza!">
+<meta data-rh="true" property="og:image" content="img/logo.jpg">
+<meta data-rh="true" property="og:site_name" content="Pinnacle2k22.com">
+<meta data-rh="true" property="og:title" content="Pinnacle - Registration Successfull">
+<meta property="og:image" content="img/logo.jpg">
+<meta property="og:image:type" content="image/jpg">
+<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
    </head>
    <body>
       <div class="stripe">
@@ -136,7 +150,14 @@
          <style>
          </style>
          <script>
-   
+            function register(type)	  {
+            var btn = document.getElementsByClassName("cyberpunk2077 btnsubmit")[0];
+            localStorage.setItem("eventtype",type);
+            localStorage.setItem("eventname",btn.value);
+            return true;
+            
+            
+            }
                 
             var obj = document.getElementsByClassName("link");
             for (var i = 0; i < obj.length; i++) {
