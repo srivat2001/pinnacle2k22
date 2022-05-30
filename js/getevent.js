@@ -35,12 +35,6 @@ $(document).ready(function() {
     if (navigator.userAgent.indexOf("Firefox") > 0) {
         var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-        //document.getElementsByClassName("selectobj")[0].value=document.getElementsByTagName("option")[0].value;
-        //$(".eventlist").toggleClass("eventlistdisplay");	
-        //		 $(".select-details-holder").toggleClass("selectdetailsdisplay");
-        //$(".selectobj").trigger("change");
-
-
     }
 	setTimeout(function() {
 			

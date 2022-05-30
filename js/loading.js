@@ -32,5 +32,8 @@
                      $(".loading").fadeOut("slow");
                      $(".mainintro").delay(300).addClass("increaseopacity");
 					  includeHTML();
-					  document.getElementsByClassName("middlelogo")[0].style.backgroundImage = 'url("img/logo.png")';
+					  if(document.getElementsByClassName("middlelogo")[0]){
+						  document.getElementsByClassName("middlelogo")[0].style.backgroundImage = 'url("img/logo.png")';
+					  }
+					  
                 });
