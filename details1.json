@@ -122,12 +122,12 @@
         {
           "Rules": [
             "A team can have a maximum of 5 students.",
-            "Create a pitch deck with your ideas and upload the following documents, including all the details contained in Guideline.",
-            "Each Team will have ten minutes to present their ideas.",
+            "Team can bring their prototypes, if any.",
+            "Create a pitch deck with your ideas and upload the following documents.",
             "Copying an idea is strictly prohibited and disqualifies you.",
-            "The jury's decision is final.",
-            "Teams can bring their prototypes, if any. The team should take full responsibility for their prototypes. We are not responsible for any loss.",
-            "The win will be based on the innovativeness and feasibility of the presented idea."
+            "Copying an idea is strictly prohibited.",
+            "The jury's decision is final."
+           
           ]
         },
         {
@@ -170,61 +170,8 @@
     }
   },
   "NonTechnical": {
-    "Futsal": {
-      "name": "Futsal",
-      "subline": "Game",
-      "desc": [
-        "A 3's football match of duration 4 mins per half where any team can participate with 2 rolling substitutes and the fixtures will be based on the number of teams registered."
-      ],
-      "contents": [
-        {
-          "Rules": [
-            "Team length-3+2 (rolling substitutes)",
-            "Time : 4 - 1 - 4",
-            "Refund of the registration fee will not be entertained strictly.",
-            "Fixtures based on number of entries.",
-            "The organizing committee has full authority to revise the rules of the game."
-          ]
-        },
-        {
-          "Rounds": []
-        },
-        {
-          "Incharge": [
-            "Laksman - 9884595403"
-          ]
-        }
-      ]
-    },
-    "Box cricket": {
-      "name": "Box cricket",
-      "subline": "Game",
-      "desc": [
-        "Cricket match with 5 players per team will be conducted in a box shaped field with under arm bowling and the fixtures will be based on the number of teams registered."
-      ],
-      "contents": [
-        {
-          "Rules": [
-            "5 players per team + 2",
-            "Number of overs : 4",
-            "The umpire’s decision is final",
-            "Refund of the registration fee will not be entertained strictly.",
-            "Fixtures based on number of entries.",
-            "The organizing committee has full authority to revise the rules of the game."
-          ]
-        },
-        {
-          "Rounds": []
-        },
-        {
-          "Incharge": [
-            "Ethiraj - 9344432023"
-          ]
-        }
-      ]
-    },
-    "Fifa": {
-      "name": "Fifa",
+    "Report Fifa": {
+      "name": "Report Fifa",
       "subline": "Game",
       "desc": [],
       "contents": [
@@ -246,8 +193,8 @@
         }
       ]
     },
-    "BGMI": {
-      "name": "BGMI",
+    "Shoot the Bug": {
+      "name": "Shoot the Bug",
       "subline": "Game",
       "desc": [],
       "contents": [
@@ -272,8 +219,8 @@
         }
       ]
     },
-    "Channel Surfing": {
-      "name": "Channel Surfing",
+    "Clash of Resilience": {
+      "name": "Clash of Resilience",
       "subline": "Game",
       "desc": [],
       "contents": [
@@ -297,30 +244,6 @@
         }
       ]
     },
-    "Uncharted": {
-      "name": "Uncharted",
-      "subline": "Game",
-      "desc": [],
-      "contents": [
-        {
-          "Rules": [
-            "A team must contain 5-6 members.",
-            "The hints will be placed in various locations around the campus.",
-            "Hints will be given through a QR code which you can scan using your mobiles.",
-            "The QR scan code gives the hint to proceed for the next QR scan.",
-            "Winners will be based on the minimal finishing time."
-          ]
-        },
-        {
-          "Rounds": []
-        },
-        {
-          "Incharge": [
-            "Shrinithi - 9445358021"
-          ]
-        }
-      ]
-    },
     "Job wreck": {
       "name": "Job wreck",
       "subline": "Game",
@@ -330,7 +253,7 @@
           "Rules": [
             "The participants will have 2 minutes time for preparation and 3 minutes on stage.",
             "They will be given 2 minutes to convince the judge as to why they should get the job.",
-            "Jobs on which they have to perform will be given on spot."
+            "Jobs on which they have to perform will be given on spot(Engineering,Civil service,etc)."
           ]
         },
         {
@@ -343,53 +266,8 @@
         }
       ]
     },
-    "Dizzy Target": {
-      "name": "Dizzy target",
-      "subline": "Game",
-      "desc": [
-        "Dizzy target is a fun game where the player has to rotate around with the ball and get dizzy. Once the player is dizzy, a target will be given in which the player has to aim accurately."
-      ],
-      "contents": [
-        {
-          "rules": []
-        },
-        {
-          "Rounds": []
-        },
-        {
-          "Incharge": [
-            "Aakash - 9344123482"
-          ]
-        }
-      ]
-    },
-    "Tug of War": {
-      "name": "Tug of War",
-      "subline": "Game",
-      "desc": [],
-      "contents": [
-        {
-          "Rules": [
-            "Knock out rounds will be conducted.",
-            "A team must consist of a maximum of 6 members.",
-            "3 rounds per match.",
-            "Fixtures based on number of entries.",
-            "Refund of the registration fee will not be entertained strictly.",
-            "The organizing committee has full authority to revise the rules of the game."
-          ]
-        },
-        {
-          "Rounds": []
-        },
-        {
-          "Incharge": [
-            "Giridharan - 9840921801"
-          ]
-        }
-      ]
-    },
-    "Chess": {
-      "name": "Chess",
+    "Technical Maze": {
+      "name": "Technical Maze",
       "subline": "skill",
       "desc": [
         "Games will be played on Real boards so players can bring his/her own board.",
