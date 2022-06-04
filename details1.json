@@ -32,22 +32,22 @@
       "name": "Codezilla",
       "subline": "DEBUGGING",
       "desc": [
-        "It would be conducted in 2 rounds.",
-        "The first round would be basic programming",
-        "Second round would be Reverse Coding.",
-        "And in the third round company specific questions would be asked and based on your performance, you may be offered an Cash Prize!!!."
+        "This coding event is of 3 hours and divided into 2 rounds.",
+" First round will be a simple programming round.",
+" Second round will be of reverse coding round."
       ],
       "contents": [
         {
           "Rules": [
             "This coding event is of 3 hours and divided into 2 rounds.",
-            "First round will be a simple programming round. Second round will be of reverse coding round.",
-            "Judges decision will be final.",
-            "Malpractices will not be entertained. If found any, he/she will be disqualified from the event."
+" First round will be a simple programming round.",
+" Second round will be of reverse coding round.",
+" Judges decision will be final.",
+" Malpractices will not be entertained. If found any, he/she will be disqualified from the event."
           ]
         },
         {
-          "Rounds": ["Round1: Simple Programming","Round2:Reverse coding round."]
+          "Rounds": []
         },
         {
           "Incharge": [
@@ -61,7 +61,7 @@
       "subline": "Technical quiz event",
       "desc": [
         "The questions will be displayed on a projector and the candidate has to answer the questions.",
-        "Certain hindrances will be given to add in fun and distract the contestants."
+        " Certain hindrances will be given to add in fun and distract the contestants."
       ],
       "contents": [
         {
@@ -87,7 +87,7 @@
       "subline": "UI/UX Design",
       "desc": [
         "This is an individual event which takes place for 1.5 hours.",
-        "It is a single round event where the participants will be given a theme on the spot.",
+        " It is a single round event where the participants will be given a theme on the spot.",
         " The winner would be chosen based on judge's decision."
       ],
       "contents": [
@@ -148,7 +148,7 @@
       "subline": "quiz",
       "desc": [
         "This would be a buzzer based event. A couple of pictures will be displayed on a projector.",
-        "The participants must identify a technical word by analyzing all the photos given as clues."
+        " The participants must identify a technical word by analyzing all the photos given as clues."
       ],
       "contents": [
         {
@@ -190,6 +190,7 @@
           "Incharge": [
             "Kailash - 9790872193"
           ]
+			
         }
       ]
     },
@@ -325,6 +326,11 @@
           "Incharge": [
             "Dani - 6381263343"
           ]
+        },
+		          {
+          "Registration": [
+            "click <a style='all: revert;'href='https://tinyurl.com/yv4autb5'>here</a> to register"
+          ]
         }
       ]
     },
@@ -381,6 +387,12 @@
         {
           "Contact": []
         }
+		  ,
+		          {
+          "Registration": [
+            "click <a style='all: revert;'href='https://tinyurl.com/4j35ckbc'>here</a> to register"
+          ]
+        }
       ]
     },
     "Solo singing": {
@@ -408,6 +420,11 @@
           "Incharge": [
             "Bhargavi - 8939909567"
           ]
+        },
+		          {
+          "Registration": [
+            "click <a style='all: revert;'href='https://tinyurl.com/mu8bv8bv'>here</a> to register"
+          ]
         }
       ]
     },
@@ -427,6 +444,11 @@
         {
           "Incharge": [
             "Rohit Amrose - 9360209960"
+          ]
+        },
+		          {
+          "Registration": [
+            "click <a style='all: revert;'href='https://tinyurl.com/433ts9ck'>here</a> to register"
           ]
         }
       ]
