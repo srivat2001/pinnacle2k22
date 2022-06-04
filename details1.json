@@ -32,22 +32,22 @@
       "name": "Codezilla",
       "subline": "DEBUGGING",
       "desc": [
-        "It would be conducted in 3 rounds.",
+        "It would be conducted in 2 rounds.",
         "The first round would be basic programming",
         "Second round would be Reverse Coding.",
-        "And in the third round company specific questions would be asked and based on your performance, you may be offered an internship!!!."
+        "And in the third round company specific questions would be asked and based on your performance, you may be offered an Cash Prize!!!."
       ],
       "contents": [
         {
           "Rules": [
-            "This is an individual event",
-            "C, C++, Java and Python are allowed.",
-            "Any malpractice will not be entertained",
-            "Judges decision will be final"
+            "This coding event is of 3 hours and divided into 2 rounds.",
+            "First round will be a simple programming round. Second round will be of reverse coding round.",
+            "Judges decision will be final.",
+            "Malpractices will not be entertained. If found any, he/she will be disqualified from the event."
           ]
         },
         {
-          "Rounds": []
+          "Rounds": ["Round1: Simple Programming","Round2:Reverse coding round."]
         },
         {
           "Incharge": [
